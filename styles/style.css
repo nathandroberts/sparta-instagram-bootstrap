@@ -1,0 +1,68 @@
+/*version 2*/
+.topSpace {
+  height: 20px;
+  background-color: gray;
+}
+.main {
+  height: 750px;
+}
+.imageBox{
+  background-color: cyan;
+
+}
+.inputBoxSpace {
+  height: 530px;
+  background-color: blue;
+  z-index: 2;
+}
+.inputBox {
+  width: 350px;
+  height: 528px;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid #e6e6e6;
+}
+.instagramLogo {
+  width: 200px;
+  height: 64px;
+}
+.blueButton {
+  background: #3897f0;
+  border-color: #3897f0;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  color: white !important;
+  width: 300px;
+}
+.accountBoxSpace {
+  height: 100px;
+  background-color: green;
+  z-index: 2;
+}
+.accountBox {
+  width: 350px;
+  height: 70px;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid #e6e6e6;
+}
+.getAppBoxSpace {
+  height: 120px;
+  background-color: gold;
+}
+.storeBadge {
+  width: 136px;
+  height: 40px;
+}
+.bottomSpace {
+  height: 20px;
+  background-color: gray;
+}
+.footer {
+  height: 100px;
+  background-color: yellow;
+}
