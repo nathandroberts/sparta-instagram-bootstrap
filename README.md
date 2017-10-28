@@ -1,2 +1,2 @@
 # sparta-instagram-bootstrap
-Second attempt at making instagram page
+Second attempt at making instagram page.
