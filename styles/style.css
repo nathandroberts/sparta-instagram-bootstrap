@@ -1,18 +1,21 @@
 /*version 2*/
+.container-fluid{
+  background-color: #fafafa;
+}
 .topSpace {
   height: 20px;
-  background-color: gray;
+  /*background-color: gray;*/
 }
 .main {
   height: 750px;
 }
 .imageBox{
-  background-color: cyan;
+  /*background-color: cyan;*/
 
 }
 .inputBoxSpace {
   height: 530px;
-  background-color: blue;
+  /*background-color: blue;*/
   z-index: 2;
 }
 .inputBox {
@@ -26,6 +29,13 @@
   width: 200px;
   height: 64px;
 }
+h2 {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #999;
+  font-weight: 600
+}
 .blueButton {
   background: #3897f0;
   border-color: #3897f0;
@@ -38,9 +48,17 @@
   color: white !important;
   width: 300px;
 }
+.or {
+  font-size: 13px
+}
+h3 {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
 .accountBoxSpace {
   height: 100px;
-  background-color: green;
+  /*background-color: green;*/
   z-index: 2;
 }
 .accountBox {
@@ -50,19 +68,33 @@
   z-index: 1;
   border: 1px solid #e6e6e6;
 }
+.haveAccount {
+  color: #262626;
+  font-size: 14px;
+  text-align: center;
+}
 .getAppBoxSpace {
   height: 120px;
-  background-color: gold;
+  /*background-color: gold;*/
 }
+
 .storeBadge {
   width: 136px;
   height: 40px;
 }
 .bottomSpace {
   height: 20px;
-  background-color: gray;
+  /*background-color: gray;*/
 }
 .footer {
   height: 100px;
-  background-color: yellow;
+  /*background-color: yellow;*/
+}
+.footerLinks {
+  color: #003569;
+  text-decoration: none;
+}
+.copyright {
+  float: right;
+  color: #999;
 }
