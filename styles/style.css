@@ -3,7 +3,7 @@
   background-color: #fafafa;
 }
 .topSpace {
-  height: 20px;
+  height: 40px;
   /*background-color: gray;*/
 }
 .main {
@@ -11,7 +11,10 @@
 }
 .imageBox{
   /*background-color: cyan;*/
-
+}
+.phoneImage {
+  margin-left: 160px;
+  margin-top: 40px;
 }
 .inputBoxSpace {
   height: 530px;
@@ -31,6 +34,7 @@
   margin-top: 19px;
 }
 h2 {
+  margin-top: 0px;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
@@ -46,23 +50,31 @@ h2 {
   font-size: 14px;
   font-weight: 600;
   line-height: 26px;
-  width: 300px;
+  width: 80%;
+}
+#facebookButton {
+  background-image: url(./images/facebook-icon.png);
 }
 .buttonText {
   color: white;
 }
 .or {
-  font-size: 13px
+  margin-top: 10px;
+  font-size: 13px;
 }
 .inputForm {
   background-color: #fafafa;
-  width: 300px;
+  width: 80%;
   margin-top: 7px;
-
+  border: 0;
+  padding: 9px 0 7px 8px;
 }
 h3 {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
+  color: #999;
+}
+.termsLink {
   color: #999;
 }
 .accountBoxSpace {
@@ -71,6 +83,7 @@ h3 {
   z-index: 2;
 }
 .accountBox {
+  margin-top: 10px;
   width: 350px;
   height: 70px;
   background-color: white;
@@ -78,18 +91,28 @@ h3 {
   border: 1px solid #e6e6e6;
 }
 .haveAccount {
+  margin-top: 25px;
   color: #262626;
   font-size: 14px;
   text-align: center;
 }
 .getAppBoxSpace {
   height: 120px;
+  width: 350px;
   /*background-color: gold;*/
 }
-
+.getAppBox {
+  width: 350px;
+}
+.getAppText {
+  text-align: center;
+}
 .storeBadge {
   width: 136px;
   height: 40px;
+}
+.appleBadge {
+  margin-left: 40px;
 }
 .bottomSpace {
   height: 20px;
@@ -102,8 +125,13 @@ h3 {
 .footerLinks {
   color: #003569;
   text-decoration: none;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 12px;
 }
-.copyright {
+.copyrightBox {
   float: right;
   color: #999;
+  font-size: 12px;
+  font-weight: 600;
 }

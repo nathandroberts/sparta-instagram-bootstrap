@@ -20,7 +20,7 @@
         </div>
         <!-- image -->
         <div class="col-md-5 main imageBox">
-          <img src="images/phonebase.png" alt="phone pic">
+          <img class="phoneImage"src="images/phonebase.png" alt="phone pic">
         </div>
         <!-- text column -->
         <div class="col-md-5 main">
@@ -33,7 +33,7 @@
                 <h2 class="signUpText">Sign up to see photos and <br>
                   videos from your friends.</h2>
                 <!-- Facebook button -->
-                <button type="button" class="blueButton center-block"><a class="buttonText" href="https://facebook.com">Log in with Facebook</a></button>
+                <button type="button" id="facebookButton"class="blueButton center-block"><a class="buttonText" href="https://facebook.com">Log in with Facebook</a></button>
                 <h2 class="or">OR</h2>
                 <!-- input boxes -->
                 <input class="inputForm center-block"type="text" name="phoneOrEmail" value=""placeholder="Mobile Number or Email">
@@ -42,7 +42,7 @@
                 <input class="inputForm center-block"type="text" name="password" value=""placeholder="Password">
                 <!-- sign up button -->
                 <button type="button" class="blueButton center-block"><a class="buttonText"href="#">Sign up</a></button>
-                <h3>By signing up, you agree to our <br><a href="#"><strong>Terms & Privacy Policy.</strong></a></h3>
+                <h3>By signing up, you agree to our <br><a href="https://help.instagram.com/478745558852511"><strong class="termsLink">Terms & Privacy Policy.</strong></a></h3>
               </div>
             </div>
           </div>
@@ -58,8 +58,8 @@
           <div class="row">
             <div class="col-md-12 getAppBoxSpace">
               <div class="getAppBox">
-                <p>Get the app.</p>
-                <img class="storeBadge"src="images/badge-iphone.png" alt="app store">
+                <p class="getAppText">Get the app.</p>
+                <img class="storeBadge appleBadge"src="images/badge-iphone.png" alt="app store">
                 <img  class="storeBadge"src="images/badge-android.png" alt="play store">
               </div>
             </div>
@@ -75,7 +75,9 @@
       </div>
       <!-- footer -->
       <div class="row">
-        <div class="col-md-12 footer">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-8 footer">
           <ul >
             <a class="footerLinks"href="#">ABOUT US</a>
             <a class="footerLinks"href="#">SUPPORT</a>
@@ -88,6 +90,10 @@
             <a class="footerLinks"href="#">DIRECTORY</a>
             <a class="footerLinks"href="#">LANGUAGE</a>
           </ul>
+
+
+        </div>
+        <div class="col-md-3 copyrightBox">
           <p class="copyright">© 2017 INSTAGRAM</p>
         </div>
       </div>
