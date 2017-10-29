@@ -26,8 +26,9 @@
   border: 1px solid #e6e6e6;
 }
 .instagramLogo {
-  width: 200px;
-  height: 64px;
+  width: 182px;
+  height: 72px;
+  margin-top: 19px;
 }
 h2 {
   font-size: 17px;
@@ -45,11 +46,19 @@ h2 {
   font-size: 14px;
   font-weight: 600;
   line-height: 26px;
-  color: white !important;
   width: 300px;
+}
+.buttonText {
+  color: white;
 }
 .or {
   font-size: 13px
+}
+.inputForm {
+  background-color: #fafafa;
+  width: 300px;
+  margin-top: 7px;
+
 }
 h3 {
   text-align: center;
